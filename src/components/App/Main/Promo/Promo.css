@@ -1,0 +1,155 @@
+.promo {
+  background: #F3C1F8;
+}
+
+.promo__header {
+  margin: 0;
+  display: flex;
+  align-content: center;
+}
+
+.promo__logo {
+  margin: 0;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.promo__link-signup {
+  margin: 0;
+  margin-left: auto;
+  align-self: center;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  color: #000000;
+}
+
+.promo__link-signup:hover {
+  opacity: 0.5;
+  transition: linear 0.5s;
+}
+
+.promo__link-signin {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  background: #000000;
+  color: #FFFFFF;
+  align-self: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  width: 76px;
+  height: 32px;
+  border-radius: 3px;
+}
+
+.promo__link-signin:hover {
+  opacity: 0.5;
+  transition: linear 0.5s;
+}
+
+.promo__section {
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.promo__landing-logo {
+    position: absolute;
+    display: flex;
+    align-self: center;
+    width: 320px;
+    height: 320px;
+    background-image: url('../../../../images/landing-logo.svg');
+}
+
+.promo__title {
+    margin: 0;
+    width: 730px;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    align-self: center;
+    color: #000000;
+}
+
+@media screen and (min-width: 1280px) {
+    .promo__section {
+        height: 524px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .promo__section {
+        height: 784px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .promo__section {
+        height: 570px;
+    }
+    .promo__landing-logo {
+        width: 248px;
+        height: 248px;
+        background-position: center;
+        background-size: cover;
+    }
+    .promo__title {
+        width: 300px;
+        font-size: 31px;
+        line-height: 39px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+  .promo__logo {
+      margin-left: 60px;
+  }
+  .promo__link-signin {
+      margin-right: 70px;
+      margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .promo__logo {
+      margin-left: 30px;
+  }
+  .promo__link-signin {
+      margin-right: 30px;
+      margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .promo__logo {
+      margin-left: 14px;
+  }
+  .promo__link-signin {
+      margin-right: 14px;
+      margin-left: 14px;
+      width: 54px;
+      height: 26px;
+      font-size: 10px;
+  }
+  .promo__link-signup {
+      font-size: 10px;
+  }
+}

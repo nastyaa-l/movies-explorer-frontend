@@ -1,0 +1,12 @@
+.header {
+  padding: 18px 70px 0px 70px;
+}
+
+.header__logo:hover {
+  opacity: 0.8;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}

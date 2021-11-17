@@ -1,0 +1,26 @@
+.moviesCardList {
+  margin: 0;
+  justify-content: center;
+  height: auto;
+  margin-top: 70px;
+  grid-row-gap: 32px;
+}
+
+@media screen and (min-width: 1280px) {
+  .moviesCardList {
+      margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .moviesCardList {
+      margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .moviesCardList {
+      margin-top: 40px;
+      margin-bottom: 30px;
+  }
+}
